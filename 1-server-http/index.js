@@ -15,7 +15,8 @@ const server = http.createServer((requisicao, resposta) => {
   resposta.write('Olá este é o meu primeiro servidor Node.js!\n');
   resposta.write('Ele está rodando na porta 3000.\n');
   resposta.write('Está utilizando o módulo http.\n');
-  resposta.write('Toda alteração deve ser reiniciado o servidor.');
+  resposta.write('Toda alteração deve ser reiniciado o servidor.\n');
+  resposta.write('Adicionando mais uma linha de texto no código.')
 
   // enviar a resposta
   resposta.end();
@@ -25,4 +26,3 @@ const server = http.createServer((requisicao, resposta) => {
 server.listen(port, hostname, () => {
   console.log(`Servidor rodando em http://${hostname}:${port}/`);
 });
-// Fazer uma requisição HTTP
