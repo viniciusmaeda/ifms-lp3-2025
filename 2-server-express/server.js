@@ -70,5 +70,6 @@ app.delete('/', (req, res) => {
 
 
 // rodar o servidor
-// executar o servidor
-app.listen(port, localhost, console.log('O servidor está rodando...'));
+app.listen(port, hostname, () => {
+  console.log(`Servidor rodando em http://${hostname}:${port}/`);
+});
