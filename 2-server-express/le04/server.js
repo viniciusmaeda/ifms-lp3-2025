@@ -1,5 +1,5 @@
 // Servidor Web que utiliza o módulo Express
-// Implementação de um rotas
+// Implementação de rotas
 // Manipula arquivos disponibilizados na pasta public
 
 // importação da biblioteca Express
