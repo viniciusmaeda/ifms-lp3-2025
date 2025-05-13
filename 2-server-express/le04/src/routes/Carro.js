@@ -17,5 +17,6 @@ rotasCarro.get('/', (req, res) => {
   res.status(200).sendFile(path.join(__dirname, '../', 'pages', 'carro.html'));
 });
 
+
 // exportar toda a configuração das rotas
 module.exports = rotasCarro;
