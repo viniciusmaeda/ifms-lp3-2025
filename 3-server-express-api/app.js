@@ -1,5 +1,5 @@
 /**
- * Servidor back-end utilizando o módulo Express que cria uma API Rest que realiza
+ * Servidor back-end utilizando o módulo Express que cria uma API Rest e realiza
  * as operações de CRUD, envolvendo os métodos HTTP (GET, POST, PUT e DELETE)
  */
 
